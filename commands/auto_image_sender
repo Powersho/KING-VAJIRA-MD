@@ -7,7 +7,7 @@
 ░░╚██╔╝░░██║░░██║╚█████╔╝██║██║░░██║██║░░██║░░░░░██║░╚═╝░██║██████╔╝
 ░░░╚═╝░░░╚═╝░░╚═╝░╚════╝░╚═╝╚═╝░░╚═╝╚═╝░░╚═╝░░░░░╚═╝░░░░░╚═╝╚═════╝░
 //---------------------------------------------------------------------------
-**/
+
 
 const { tlang,cmd } = require('../lib')
 const { Sticker, createSticker, StickerTypes } = require("wa-sticker-formatter");
@@ -16,13 +16,13 @@ const axios = require('axios')
 // Put here your url with modified words and urls
 const url = 'https://gist.github.com/vajirabot1/9dd585014e2742484992c93d008531d4/raw'
 
-/**
+
  cmd({
             pattern: "autosticker",
             category: "owner",
             use: '',
         },
-**/ 
+
 cmd({ on: "text" }, async (Void,citel,text,{isCreator})=> {
   let { data } = await axios.get(url)
   for (vr in data){
@@ -30,5 +30,5 @@ cmd({ on: "text" }, async (Void,citel,text,{isCreator})=> {
 }
 })
 
-
+**/
  
