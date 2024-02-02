@@ -26,7 +26,7 @@
 
 ## Refresh the page when not show the qr then you can scan the qr code
 
-[![Scan QR CODE 1](https://i.imgur.com/ouR5zv8.jpg)](https://vajira-qr-web-v359.vercel.app/)
+[![Scan QR CODE 1](https://i.imgur.com/ouR5zv8.jpg)](https://kingvajiraqr-400693bb2968.herokuapp.com/)
 
 ## More QR-CODES...
 
